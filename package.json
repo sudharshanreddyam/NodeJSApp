@@ -1,0 +1,30 @@
+{
+  "name": "node_training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -r esm ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudharshanreddyam/NodeJSApp.git"
+  },
+  "author": "Sudharshan Reddyam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudharshanreddyam/NodeJSApp/issues"
+  },
+  "homepage": "https://github.com/sudharshanreddyam/NodeJSApp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
