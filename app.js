@@ -1,6 +1,6 @@
-class App {
-    constructor() {
-    }
-}
+import config from './config/config';
+import { User, Product} from './models';
 
-const app = new App();
+console.log(config.name);
+const UserObj = new User();
+const ProductObj = new Product();
