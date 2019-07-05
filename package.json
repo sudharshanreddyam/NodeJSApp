@@ -19,10 +19,14 @@
   "homepage": "https://github.com/sudharshanreddyam/NodeJSApp#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.5.0",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-stage-2": "^7.0.0",
     "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.5.0",
     "nodemon": "^1.19.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "csvjson": "^5.1.0"
+  }
 }
