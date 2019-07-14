@@ -3,7 +3,6 @@ import { User, Product } from './models';
 import DirWatcher from './dirWatcher';
 import Importer from './importer';
 
-console.log(config.name);
 const UserObj = new User();
 const ProductObj = new Product();
 const dirWatcher = new DirWatcher();
@@ -13,4 +12,3 @@ const dataDir = 'data';
 const delay = 2000;
 
 dirWatcher.watch(dataDir, delay);
-
