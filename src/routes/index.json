@@ -1,0 +1,15 @@
+{
+    "getProducts": "/api/products",
+    "getProduct": "/api/products/:id",
+    "getReviews": "/api/products/:id/reviews",
+    "addProduct": "/api/product",
+    "getUsers": "/api/users",
+    "authenticate": "/auth",
+    "login": "/login",
+    "facebookLogin": "/login/facebook",
+    "facebookRedirect": "/login/facebook/callback",
+    "googleLogin": "/login/google",
+    "googleRedirect": "/login/google/callback",
+    "twitterLogin": "/login/twitter",
+    "twitterRedirect": "/login/twitter/callback"
+}
