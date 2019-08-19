@@ -3,7 +3,7 @@ import userControllers from './users';
 import authencationController from './authentication';
 
 export default {
-    products: productControllers,
-    user: userControllers,
-    authenticate: authencationController
-} 
+  products: productControllers,
+  user: userControllers,
+  authenticate: authencationController,
+};

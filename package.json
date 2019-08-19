@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon -r @babel/register index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,9 @@
     "@babel/preset-stage-2": "^7.0.0",
     "@babel/register": "^7.4.4",
     "@babel/runtime": "^7.5.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "nodemon": "^1.19.1",
     "stream-replace": "^1.0.0"
   },
@@ -39,6 +43,10 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.4",
+    "pg": "^7.12.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.14.0",
+    "sequelize-cli": "^5.5.0",
     "through2": "^3.0.1"
   }
 }
