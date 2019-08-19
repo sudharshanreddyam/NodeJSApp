@@ -35,3 +35,20 @@ Authentication is done based on the user data available at `\src\data\credential
 | /login/google/callback    | GET    |                                                  |                                             |                                                                                      |
 | /login/twitter            | GET    |                                                  |                                             | Authenticates user with passport-twitter strategy                                    |
 | /login/twitter/callback   | GET    |                                                  |                                             |                                                                                      |
+
+
+
+
+### NoSQL REST endpoints
+
+METHOD     |  END-POINT                       | ACTION
+-----------|----------------------------------|--------
+GET        |  /api/nosql/products             |  Return ​ALL​ products
+POST       |  /api/nosql/product              |  Add ​NEW​ product and returns it
+GET        |  /api/nosql/products/:id         |  Returns the product with given id
+GET        |  /api/nosql/products/:id/reviews |  Return ​ALL​ reviews for a single product
+GET        |  /api/nosql/users                |  Return ​ALL​ users
+POST       |  /api/nosql/user                 |  Saves the user
+GET        |  /api/city                       |  Returns a random city
+GET        |  /api/cities                     |  Returns ​ALL​ cities
+POST       |  /api/cities                     |  Saves the city

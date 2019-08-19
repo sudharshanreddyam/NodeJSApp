@@ -14,4 +14,11 @@ function getAllUsers(req, res) {
     .catch((error) => console.log('Error: ', error));
 }
 
-export default { getAllUsers };
+function addUser(req, res) {
+  const { firstName, lastName, email } = req.body;
+  Users.create({ firstName, lastName, email })
+    .then((User) => res.json(User))
+    .catch((error) => console.log('Error:', error));
+}
+
+export default { getAllUsers, addUser };
