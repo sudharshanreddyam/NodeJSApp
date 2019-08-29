@@ -4,6 +4,17 @@
     "getReviews": "/api/products/:id/reviews",
     "addProduct": "/api/product",
     "getUsers": "/api/users",
+    "addUser": "/api/user",
+
+    "getCity": "/api/city",
+    "getCities": "/api/cities",
+    "getProductsnosql": "/api/nosql/products",
+    "getProductnosql": "/api/nosql/products/:id",
+    "getReviewsnosql": "/api/nosql/products/:id/reviews",
+    "addProductnosql": "/api/nosql/product",
+    "getUsersnosql": "/api/nosql/users",
+    "addUsernosql": "/api/nosql/user",
+
     "authenticate": "/auth",
     "login": "/login",
     "facebookLogin": "/login/facebook",
@@ -11,5 +22,8 @@
     "googleLogin": "/login/google",
     "googleRedirect": "/login/google/callback",
     "twitterLogin": "/login/twitter",
-    "twitterRedirect": "/login/twitter/callback"
+    "twitterRedirect": "/login/twitter/callback",
+    
+    "verifyAuth": "/api/*",
+    "allRoutes": "/*"
 }
