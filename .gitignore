@@ -4,3 +4,4 @@ package-lock.json
 .vscode/settings.json
 .vscode/launch.json
 src/config/.eslintrc
+/swagger/node_modules
